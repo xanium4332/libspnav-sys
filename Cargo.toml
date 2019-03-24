@@ -1,0 +1,14 @@
+[package]
+name = "libspnav-sys"
+version = "0.1.0"
+description = "FFI bindings to libspnav-sys"
+authors = ["James Buckley <xanium4332@gmail.com>"]
+repository = "https://github.com/xanium4332/libspnav-sys"
+license = "BSD-3-Clause"
+readme = "README.md"
+categories = ["external-ffi-bindings"]
+exclude = [".gitmodules"]
+edition = "2018"
+
+[build-dependencies]
+cc = "1.0"
